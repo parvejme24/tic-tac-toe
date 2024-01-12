@@ -1,5 +1,8 @@
-export default function App() {
+export default function Square() {
   return (
-    <h1 className="text-3xl font-semibold flex justify-center">Hello Tic tac toe</h1>
+    <>
+      <button className="bg-white border border-gray-400 h-12 w-12 m-1">X</button>
+      <button className="bg-white border border-gray-400 h-12 w-12 m-1">X</button>
+    </>
   )
 }
